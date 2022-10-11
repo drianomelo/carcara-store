@@ -129,7 +129,7 @@ a, a:visited, a:active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 6em;
+  margin-bottom: 3em;
 }
 .main__releases-title {
   margin-bottom: 1em;
@@ -185,4 +185,67 @@ a, a:visited, a:active {
 }
 .main__releases .main__cards .main__card .main__buttons .main__btn-r img, .main__releases .main__cards .main__card .main__buttons .main__btn-l img {
   width: 2em;
+}
+.main__generic-banner {
+  margin-bottom: 3em;
+}
+.main__generic-banner img {
+  width: 100vw;
+}
+.main__form {
+  background-color: var(--main-orange);
+  padding: 0.5em;
+  text-align: center;
+}
+.main__form h2 {
+  color: var(--white);
+  font-size: 0.8em;
+  margin-bottom: 0.5em;
+}
+.main__form form {
+  display: flex;
+  justify-content: center;
+}
+.main__form form input {
+  width: 80%;
+  padding: 0.5em;
+  border: none;
+}
+.main__form form input::-moz-placeholder {
+  font-size: 0.9em;
+}
+.main__form form input:-ms-input-placeholder {
+  font-size: 0.9em;
+}
+.main__form form input::placeholder {
+  font-size: 0.9em;
+}
+.main__form form button {
+  border: none;
+  background-color: var(--secundary-orange);
+  color: var(--white);
+  font-family: var(--font);
+  font-size: 0.6em;
+  font-weight: 700;
+}
+
+.footer {
+  margin-top: 1em;
+}
+.footer__pay {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5em;
+}
+.footer__pay img {
+  width: 2em;
+}
+.footer__pay img:not(:last-child) {
+  margin-right: 1em;
+}
+.footer__copyright {
+  text-align: center;
+  color: var(--gray);
+  font-size: 0.5em;
+  margin-bottom: 1em;
 }/*# sourceMappingURL=style.css.map */

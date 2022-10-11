@@ -1,0 +1,23 @@
+.footer {
+    margin-top: 1em;
+    &__pay {
+        display: flex;
+        justify-content: center;
+        margin-bottom: .5em;
+
+        & img {
+            width: 2em;
+        }
+
+        & img:not(:last-child) {
+            margin-right: 1em;
+        }
+    }
+
+    &__copyright {
+        text-align: center;
+        color: var(--gray);
+        font-size: .5em;
+        margin-bottom: 1em;
+    }
+}
