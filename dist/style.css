@@ -1,0 +1,188 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  font-weight: 400;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font);
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+}
+
+:root {
+  --main-orange: #F15F36;
+  --secundary-orange: #E04D38;
+  --gray: #c4c4c4;
+  --green: #04d483;
+  --white: #FFF;
+  --font: "Open Sans", sans-serif;
+}
+
+.header {
+  background-color: var(--secundary-orange);
+}
+.header__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2em 1em;
+  flex-wrap: wrap;
+}
+.header__logo {
+  width: 2.8em;
+}
+.header__menu, .header__car {
+  background: none;
+  border: none;
+}
+.header__menu img, .header__car img {
+  width: 1.5em;
+}
+.header__search {
+  display: flex;
+}
+.header__input {
+  width: 100vw;
+  border: 1px solid var(--gray);
+  padding: 1em;
+}
+.header__input::-moz-placeholder {
+  font-size: 1.1em;
+}
+.header__input:-ms-input-placeholder {
+  font-size: 1.1em;
+}
+.header__input::placeholder {
+  font-size: 1.1em;
+}
+.header__search-btn {
+  width: 12vw;
+  border: 1px solid var(--gray);
+  background-color: var(--white);
+}
+.header__search-btn img {
+  width: 1.5em;
+}
+
+.main__banners {
+  display: flex;
+  flex-direction: column;
+}
+.main__banners .main__first-banner, .main__banners .main__second-banner {
+  margin: 0;
+}
+.main__banners img {
+  width: 100vw;
+}
+.main__accessories {
+  margin-top: 1em;
+  padding: 1em;
+  position: relative;
+}
+.main__accessories .main__line {
+  height: 1px;
+  background: var(--gray);
+  text-align: center;
+  margin-bottom: 2em;
+}
+.main__accessories .main__line .main__title {
+  font-weight: 700;
+  color: var(--main-orange);
+  background-color: var(--white);
+  display: inline-block;
+  padding: 0 0.5em;
+  position: absolute;
+  top: 5%;
+  left: 12%;
+}
+.main__accessories .main__list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  list-style: none;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+.main__accessories .main__list img {
+  width: 2em;
+}
+.main__releases {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6em;
+}
+.main__releases-title {
+  margin-bottom: 1em;
+}
+.main__releases .main__cards {
+  display: flex;
+  justify-content: center;
+}
+.main__releases .main__cards .main__card {
+  position: relative;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.main__releases .main__cards .main__card .main__img {
+  width: 9em;
+  margin-bottom: 0.4em;
+}
+.main__releases .main__cards .main__card .main__name {
+  font-weight: 400;
+  width: 100%;
+  font-size: 1em;
+  display: inline-block;
+  margin-bottom: 0.4em;
+}
+.main__releases .main__cards .main__card .main__frete {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 700;
+  color: var(--green);
+  margin-bottom: 0.4em;
+}
+.main__releases .main__cards .main__card .main__price {
+  font-weight: 700;
+}
+.main__releases .main__cards .main__card .main__parcelas {
+  font-size: 0.7em;
+}
+.main__releases .main__cards .main__card .main__buttons .main__btn-l {
+  position: absolute;
+  top: 5%;
+  left: -45%;
+}
+.main__releases .main__cards .main__card .main__buttons .main__btn-r {
+  position: absolute;
+  top: 5%;
+  left: 120%;
+}
+.main__releases .main__cards .main__card .main__buttons .main__btn-r, .main__releases .main__cards .main__card .main__buttons .main__btn-l {
+  background: none;
+  border: none;
+}
+.main__releases .main__cards .main__card .main__buttons .main__btn-r img, .main__releases .main__cards .main__card .main__buttons .main__btn-l img {
+  width: 2em;
+}/*# sourceMappingURL=style.css.map */

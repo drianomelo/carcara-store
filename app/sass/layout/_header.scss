@@ -1,0 +1,48 @@
+.header {
+    background-color: var(--secundary-orange);
+
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .2em 1em;
+        flex-wrap: wrap;
+    }
+
+    &__logo {
+        width: 2.8em;
+    }
+
+    &__menu, &__car {
+        background: none;
+        border: none;
+    }
+
+    &__menu img, &__car img{
+        width: 1.5em;
+    }
+
+    &__search {
+        display: flex;
+    }
+
+    &__input {
+        width: 100vw;
+        border: 1px solid var(--gray);
+        padding: 1em;
+
+        &::placeholder {
+            font-size: 1.1em;
+        }
+    }
+
+    &__search-btn {
+        width: 12vw;
+        border: 1px solid var(--gray);
+        background-color: var(--white);
+
+        & img {
+            width: 1.5em;
+        }
+    }
+}
