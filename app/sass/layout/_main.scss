@@ -1,4 +1,18 @@
 .main {  
+
+    &__meet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & a {
+          font-size: .6em;
+          text-transform: uppercase;
+          padding: .5em;
+          color: var(--secundary-orange);
+        }
+    }
+
     &__banners {
         display: flex;
         flex-direction: column;

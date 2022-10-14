@@ -83,6 +83,17 @@ a, a:visited, a:active {
   width: 1.5em;
 }
 
+.main__meet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__meet a {
+  font-size: 0.6em;
+  text-transform: uppercase;
+  padding: 0.5em;
+  color: var(--secundary-orange);
+}
 .main__banners {
   display: flex;
   flex-direction: column;
